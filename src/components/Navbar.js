@@ -7,9 +7,9 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="nav-center">
                 <div className="nav-header">
-
-                    <button type="button" className="toggle-btn"></button>
-                    <FaAlignRight></FaAlignRight>
+                    <button type="button" className="toggle-btn">
+                    </button>
+                    <div  className="toggle-btn"><FaAlignRight></FaAlignRight></div>
                 </div>
                 <PageLinks styleClass="nav-links"></PageLinks>
             </div>
