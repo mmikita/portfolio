@@ -88,3 +88,42 @@ a {
   }
  
 } 
+
+
+
+
+.bannerWrapper{
+position: relative;
+
+}
+.bannerText{
+ position: absolute;
+ color: #fff;
+ top: 41%;
+ left: 10%;
+ font-size: 50px;
+}
+@media screen and (min-width: 940px) and (max-width: 1520px)  {
+  .bannerText{
+    top: 37%;
+    font-size: 37px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .bannerText{
+    top: 36%;
+    font-size: 20px;
+   }
+   .nav-links li {
+    margin-right: 1rem;
+    }
+
+   
+}
+@media screen and (max-width: 710px) {
+  .bannerText{
+    top: 10%;
+    left: 5%;
+    font-size: 20px;
+   }
+}  
