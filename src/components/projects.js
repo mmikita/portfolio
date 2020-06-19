@@ -1,22 +1,15 @@
 import React from "react"
-import Title from "./Title"
 import Project from "./Project"
 import { Link } from "gatsby"
-const Projects = ({ projects, title, showlink }) => {
-  return <section className="section projects">
-    <Title title={title}></Title>
-    <div className="section-center projects-center">
-{projects.map((project,index)=>{
-console.log(project);
-return <Project key={project.id} index={index} {...project}>
-</Project>
-})}
+const Projects = ({ data }) => {
+    const {allStrapiProjects:{nodes:projects}} = data
 
-    </div>
-    {
-      showlink && <Link to='/projects' className="btn center-btn">...</Link>
-    }
-  </section>
+    return <section className="section projects">
+ {projects.map((project,index)=>{
+console.log(project);
+return <div>hehe</div>
+})}
+    </section>
 }
 
 export default Projects

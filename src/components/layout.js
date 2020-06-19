@@ -4,6 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./navbar"
 import Baner from "./baner"
 import About from "./about"
+import ProjectsContainer from "./projectsContainer"
+
 import "./layout.css"
 const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
 
@@ -41,6 +43,7 @@ console.log({query})
     <Baner />
     <div className="container">
       <About />
+      <ProjectsContainer />
     </div>
   </div>
 
