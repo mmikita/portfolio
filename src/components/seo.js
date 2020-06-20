@@ -73,9 +73,10 @@ function SEO({ description, lang, meta, title }) {
 }
 
 SEO.defaultProps = {
+  title: 'Portfolio',
+  description: 'Portfolio - Michał Mikita',
   lang: `en`,
   meta: [],
-  description: ``,
 }
 
 SEO.propTypes = {

@@ -5,6 +5,8 @@ import Navbar from "./navbar"
 import Baner from "./baner"
 import About from "./about"
 import ProjectsContainer from "./projectsContainer"
+import { Helmet } from "react-helmet"
+
 
 import "./layout.css"
 const ComponentName = ({ data }) => <pre>{JSON.stringify(data, null, 4)}</pre>
@@ -36,16 +38,20 @@ export const query = graphql`
 
 
 const Layout = ({ children }) => {
-console.log({query})
+  console.log({ query })
   return (
-  <div>
-    <Navbar />
-    <Baner />
-    <div className="container">
-      <About />
-      <ProjectsContainer />
+    <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Portfolio - Michał</title>
+      </Helmet>
+      <Navbar />
+      <Baner />
+      <div className="container">
+        <About />
+        <ProjectsContainer />
+      </div>
     </div>
-  </div>
 
   )
 }
