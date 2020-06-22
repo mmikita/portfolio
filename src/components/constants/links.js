@@ -13,12 +13,12 @@ const data = [
   {
     id: 2,
     text: "projects",
-    url: "#projects",
+    url: "#projectsSection",
   },
   {
     id: 3,
     text: "contact",
-    url: "#contact",
+    url: "#contactFormWrapper",
   },
 ]
 

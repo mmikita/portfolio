@@ -4,7 +4,7 @@ import Plane from './../images/plane.png';
 
 const Form = ({ description }) => {
     
-    return <div className="formSection"> 
+    return <div id="#contactFormWrapper" className="formSection"> 
         <h2>Contact me</h2>
         <div className="formWrapper">
 

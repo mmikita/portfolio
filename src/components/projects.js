@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Projects = ({ data }) => {
     const { allStrapiProjects: { nodes: projects } } = data
 
-    return <section className="section projects">
+    return <section id="#projectsSection" className="section projects">
         <div className="section-center projects-center">
             <h2 className="projectsHead" >Projekty</h2>
             {projects.map((project, index) => {
