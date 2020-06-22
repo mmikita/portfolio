@@ -6,10 +6,17 @@ body{
 
 ul {
   list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 1.45rem;
+  margin-right: 1.45rem;
+  text-align: right;
 }
 a {
   text-decoration: none;
 }
+h2{text-align: center;}
+
+
 .navbar {
   position: absolute;
   top: 0;
@@ -275,8 +282,9 @@ Projects
   }
 }
 
-.project-links svg{color: #fff;}
-.project-links svg:hover{color: #616969;}
+svg{color: #fff;}
+svg:hover{color: #616969;}
+
 .projectsHead{text-align: center; font-size: 40px;}
 
 
@@ -301,8 +309,50 @@ text-align: center;
   display: block;
 }
 
-.contactForm input{border-radius: 30px; width: 100%;}
-.contactForm textarea{border-radius: 30px; width: 100%;}
+.contactForm textarea{ width: 100%;}
 .formWrapper{margin-left: auto;max-width: 600px;margin-right: auto;}
 .footer{background-color: #000;}
 .footer p{margin-bottom: 0; text-align: center;}
+input,textarea{
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color:#fff;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.field{
+  position: relative;
+  margin-top: 15px;
+}
+label{
+
+	font-size:16px;
+	color:#fff;	
+	transition: all 0.5s ease-in-out;
+}
+input:focus{ 
+  border:none;	
+  outline:none;
+  border-bottom:1px solid #fff;	
+ }
+
+ .formSection{
+  padding-right: 20px;
+  padding-left: 20px;
+  }
+  #submitForm img{
+    cursor: pointer;    
+  }
+
+.project-links svg{color: #fff;}
+.project-links svg:hover{color: #616969;}
+
+
+.footer li{display: inline-block;}
+.footer ul{padding-top: 4px;}
+.footer a{padding-right: 10px;}
+.footer{height: 40px;}

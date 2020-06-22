@@ -3,7 +3,10 @@ import Plane from './../images/plane.png';
 
 
 const Form = ({ description }) => {
-    return <div className="formWrapper">
+    
+    return <div className="formSection"> 
+        <h2>Contact me</h2>
+        <div className="formWrapper">
 
         <form className="contactForm" method="post" action="#">
             <div className="field">
@@ -30,6 +33,7 @@ const Form = ({ description }) => {
         </form>
 
 
+    </div>
     </div>
 }
 
