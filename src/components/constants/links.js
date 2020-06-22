@@ -1,23 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
+
+
+
 const data = [
   {
     id: 1,
     text: "about me",
-    url: "#about",
+    url: "#aboutMe",
   },
   {
     id: 2,
-    text: "skills",
-    url: "#skills",
-  },
-  {
-    id: 3,
     text: "projects",
     url: "#projects",
   },
   {
-    id: 4,
+    id: 3,
     text: "contact",
     url: "#contact",
   },
@@ -26,7 +25,7 @@ const data = [
 const tempLinks = data.map(link => {
   return (
     <li key={link.id}>
-      <Link to={link.url}>{link.text}</Link>
+      <Link to={link.url} smooth={true} duration={500} >{link.text}</Link>
     </li>
   )
 })

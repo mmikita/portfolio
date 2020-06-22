@@ -41,12 +41,15 @@ export const query = graphql`
 
 
 const Layout = ({ children }) => {
+
+
+  
   console.log({ query })
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Portfolio - Michał</title>
+        <title>Portfolio</title>
       </Helmet>
       <Navbar />
       <Baner />

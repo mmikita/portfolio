@@ -9,9 +9,8 @@ const Footer = () => {
 
 
         <ul>
-              <li class="linkedin"><a href="https://www.facebook.com/" title="linkedin" target="_blank"><LinkedInIcon /></a></li>
-              <li class="github"><a href="https://twitter.com/" title="github" target="_blank"><GitHubIcon /></a></li>
-
+              <li class="linkedin"><a href="https://www.linkedin.com/in/micha%C5%82-mikita-433b69142/" title="linkedin" target="_blank"><LinkedInIcon /></a></li>
+              <li class="github"><a href="https://github.com/mmikita" title="github" target="_blank"><GitHubIcon /></a></li>
           </ul>
 
     </div>
