@@ -352,8 +352,26 @@ input:focus{
 .project-links svg{color: #fff;}
 .project-links svg:hover{color: #616969;}
 
-
+.footer{padding-bottom: 30px;}
 .footer li{display: inline-block;}
 .footer ul{padding-top: 4px;}
 .footer a{padding-right: 10px;}
 .footer{height: 40px;}
+.footer div:not(.goToUp){display: inline-block; width: 50%;} 
+.emailContainer{width: 50%; text-align: center;}
+.emailContainer a{color: #fff}
+.emailContainer a:hover{color: #616969}
+
+.goToUp{
+  top: 94%;
+    margin-top: 2px;
+    float: right;
+    right: 10px;
+    padding: 7px 7px;
+    position: fixed;
+    z-index: 999999999;
+    border: 2px solid #cdcdcd;
+    width: 32px;
+    border-radius: 100%;
+    background: rgba(0,153,66,1);
+}

@@ -4,7 +4,7 @@ import light from './../images/light.jpg';
 const Baner = () => {
     return <div className="bannerWrapper">
         <img src={light}></img>
-        <div className="bannerText">
+        <div id="#baner" className="bannerText">
         <p>Hey! I’m Michał, Web Developer</p>    
             
         </div>

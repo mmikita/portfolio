@@ -3,7 +3,7 @@ import React from "react"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "./constants/links"
 const Navbar = () => {
-    return <div>
+    return <div id="top">
         <nav className="navbar">
             <div className="nav-center">
                 <div className="nav-header">
