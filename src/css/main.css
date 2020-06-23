@@ -8,7 +8,7 @@ ul {
   list-style-type: none;
   margin-bottom: 0;
   margin-left: 1.45rem;
-  margin-right: 1.45rem;
+  margin-right: 2.45rem;
   text-align: right;
 }
 a {
@@ -358,20 +358,35 @@ input:focus{
 .footer a{padding-right: 10px;}
 .footer{height: 40px;}
 .footer div:not(.goToUp){display: inline-block; width: 50%;} 
-.emailContainer{width: 50%; text-align: center;}
+.emailContainer{width: 50%;     text-align: left;
+  padding-left: 20px;}
 .emailContainer a{color: #fff}
 .emailContainer a:hover{color: #616969}
+@media(max-width: 519px){
+  .emailContainer{  text-align: center;}
+}
+
 
 .goToUp{
-  top: 94%;
+  top: 95%;
     margin-top: 2px;
     float: right;
     right: 10px;
     padding: 7px 7px;
     position: fixed;
     z-index: 999999999;
-    border: 2px solid #cdcdcd;
     width: 32px;
     border-radius: 100%;
-    background: rgba(0,153,66,1);
+}
+
+.emailContainer svg{
+  transform: translateY(6px);
+}
+
+span.email{
+  white-space: nowrap;
+}
+
+@media(max-width: 345px){
+  span.emailIcon{padding-left: 40px;}
 }
