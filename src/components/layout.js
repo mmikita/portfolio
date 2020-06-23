@@ -6,6 +6,8 @@ import Baner from "./baner"
 import About from "./about"
 import Form from "./form"
 import Footer from "./footer"
+import Sidebar from "./sidebar"
+
 
 import ProjectsContainer from "./projectsContainer"
 import { Helmet } from "react-helmet"
@@ -52,6 +54,8 @@ const Layout = ({ children }) => {
         <title>Portfolio</title>
       </Helmet>
       <Navbar />
+        <Sidebar/>
+   
       <Baner />
       <div className="container">
         <About />
