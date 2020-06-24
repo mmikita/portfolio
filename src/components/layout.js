@@ -42,19 +42,24 @@ export const query = graphql`
 `
 
 
+
 const Layout = ({ children }) => {
 
+const[isOpen, setIsOpen] = React.useState(false)
 
-  
-  console.log({ query })
+const toggleSidebar = (hehe) =>{
+  setIsOpen(!isOpen)
+}
+
+
   return (
     <div>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Portfolio</title>
       </Helmet>
-      <Navbar />
-        <Sidebar/>
+      <Navbar toggleSidebar={toggleSidebar} isOpen={isOpen} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar}/>
    
       <Baner />
       <div className="container">

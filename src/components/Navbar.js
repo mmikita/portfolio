@@ -2,14 +2,21 @@ import React from "react"
 //import logo from "../assets/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "./constants/links"
-const Navbar = () => {
+const Navbar = ({toggleSidebar, isOpen}) => {
+
+
+
+
+
+
     return <div id="top">
         <nav className="navbar">
             <div className="nav-center">
                 <div className="nav-header">
-                    <button type="button" className="toggle-btn">
+                    <button type="button" className="toggle-btn" onClick={toggleSidebar}>
+                    <FaAlignRight></FaAlignRight>
                     </button>
-                    <div  className="toggle-btn"><FaAlignRight></FaAlignRight></div>
+                
                 </div>
                 <PageLinks styleClass="nav-links"></PageLinks>
             </div>
