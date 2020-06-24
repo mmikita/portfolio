@@ -37,11 +37,12 @@ h2{text-align: center;}
   padding-top: 50px;
 }
 .nav-header {
+  float: right;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.nav-header svg{color: #000;}
 
 .toggle-btn {
   font-size: 2rem;
@@ -441,7 +442,7 @@ Sidebar
   text-transform: capitalize;
   color: var(--clr-grey-5);
   letter-spacing: var(--spacing);
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
   transition: var(--transition);
   border-radius: var(--radius);
@@ -527,6 +528,8 @@ Sidebar Animation
     opacity: 1;
   }
 }
+
+.sidebar{background-color: rgba(0,0,0,0.65);}
 
 
 

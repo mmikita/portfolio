@@ -2,13 +2,7 @@ import React from "react"
 //import logo from "../assets/logo.svg"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "./constants/links"
-const Navbar = ({toggleSidebar, isOpen}) => {
-
-
-
-
-
-
+const Navbar = ({toggleSidebar}) => {
     return <div id="top">
         <nav className="navbar">
             <div className="nav-center">
@@ -16,12 +10,10 @@ const Navbar = ({toggleSidebar, isOpen}) => {
                     <button type="button" className="toggle-btn" onClick={toggleSidebar}>
                     <FaAlignRight></FaAlignRight>
                     </button>
-                
                 </div>
                 <PageLinks styleClass="nav-links"></PageLinks>
             </div>
         </nav>
     </div>
 }
-
 export default Navbar
