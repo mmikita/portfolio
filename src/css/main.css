@@ -113,6 +113,9 @@ position: relative;
   color: #fff;
   text-align: center;
 }
+
+
+
 .aboutWrapper p{
 text-align: justify;
 }
@@ -363,6 +366,8 @@ input:focus{
   padding-left: 20px;}
 .emailContainer a{color: #fff}
 .emailContainer a:hover{color: #616969}
+.emailContainer a:hover svg{color: #616969}
+
 @media(max-width: 519px){
   .emailContainer{  text-align: center;}
 }
@@ -531,6 +536,10 @@ Sidebar Animation
 
 .sidebar{background-color: rgba(0,0,0,0.65);}
 
+
+.aboutWrapper p{
+  text-align:  center;
+}
 
 
 

@@ -3,7 +3,13 @@ import React from "react"
 const About = () => {
     return <div id="#aboutMe" className="aboutWrapper">
         <h1>About me</h1>
-        <p>I'm baby humblebrag XOXO affogato banh mi squid, 8-bit edison bulb williamsburg flexitarian tofu iPhone semiotics salvia jean shorts. Af readymade cold-pressed kitsch, poutine actually copper mug drinking vinegar before they sold out ugh marfa asymmetrical cardigan squid. Live-edge retro coloring book venmo microdosing ennui, williamsburg pinterest subway tile XOXO vaporware. Vinyl butcher unicorn typewriter. Glossier cold-pressed irony pork belly. Cred master cleanse jianbing farm-to-table air plant actually kale chips everyday carry gentrify glossier distillery bespoke letterpress tousled hella. PBR&B actually williamsburg, tousled heirloom woke pickled yr chia.</p>
+        <p>I'm Web Developer interested in technologies like Java, HTML, CSS, JavaScript, PHP, MySQL, various frameworks and other technologies. I also know CMS like wordpress, joomla and prestashop.
+I enjoy at challenges at work like learning new technologies in new projects and figure out how to handle in new environment. I love to master new technologies and I think that, the learning new things isn't just the smart thing to do, it's  reallly necessary to not to fall into stagnation and routine. Creating websites in frontend and backend is my work and passion.
+
+
+
+
+</p>
 
 
     </div>
