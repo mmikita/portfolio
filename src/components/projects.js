@@ -1,5 +1,7 @@
 import React from "react"
-import Project from "./Project"
+
+
+import Project from "./project"
 import { Link } from "gatsby"
 const Projects = ({ data }) => {
     const { allStrapiProjects: { nodes: projects } } = data
