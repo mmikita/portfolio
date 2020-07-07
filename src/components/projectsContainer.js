@@ -1,5 +1,7 @@
 import React from "react"
-import Projects from "./Projects"
+
+import Projects from "./projects"
+
 
 import { Link, StaticQuery } from "gatsby"
 
