@@ -1,6 +1,6 @@
 body{
   background-color: #0c0f14;
-  color: #fff;
+  color: #fff !important;
   background: linear-gradient(#0c0f14 25%, #cecfd0);
 }
 
@@ -374,7 +374,7 @@ input:focus{
 
 
 .goToUp{
-  top: 95%;
+  top: 92%;
     margin-top: 2px;
     float: right;
     right: 10px;
