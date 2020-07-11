@@ -8,7 +8,7 @@ const Form = ({ description }) => {
         <h2>Contact me</h2>
         <div className="formWrapper">
 
-            <form className="contactForm" method="post" action="#">
+            <form className="contactForm" method="post" action="https://getform.io/f/f95ce7c4-7b5a-4b79-b93c-cbe039e8e04b">
                 <div className="field">
                     <div>
                         <label htmlFor="name">Name</label></div>
