@@ -6,7 +6,18 @@ width: 126%;
 
 }
 
-#aboutMe p {padding: 0 10px;}
+#aboutMe p {padding: 0 20px;}
+
+@media(max-width: 400px){
+.toggle-btn{
+  top: 15px;
+  position: absolute;
+  right: -50px;
+
+}
+
+}
+
 
 body{
   background-color: #0c0f14;
