@@ -1,3 +1,13 @@
+@media(max-width: 400px){
+html{
+width: 126%;
+
+}
+
+}
+
+
+
 body{
   background-color: #0c0f14;
   color: #fff !important;
