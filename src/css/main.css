@@ -105,9 +105,11 @@ h2{text-align: center;}
 position: relative;
 }
 
+@media(min-width: 992px){
 .container{
   padding: 0 80px;
 
+}
 }
 .aboutWrapper{
   color: #fff;
